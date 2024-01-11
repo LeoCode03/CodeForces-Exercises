@@ -1,11 +1,10 @@
 import java.util.Scanner;
-public class WayTooLOngWords
+public class WayTooLongWords
 {
     public static void main(String[]args){
         Scanner sc = new Scanner(System.in);
         int words = sc.nextInt();
-        sc.nextLine();
-        for (int i = 0; i < words; i++) {
+        for(int i = 0; i <= words; i++){
             String word = sc.nextLine();
             System.out.println(shortWord(word));
         }
