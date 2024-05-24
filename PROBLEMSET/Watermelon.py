@@ -6,7 +6,5 @@ def dividirSandia(w):
         return "NO"    
     
 if __name__ == "__main__":
-    import sys
-    input = sys.stdin.read
-    w = int(input().strip())
-    print(dividirSandia(w))
+    s = int(input())
+    print(dividirSandia(s))
